@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Suven Consultants | IT Recruiters | Non IT Recruiters | Trained freshers in Web Technology | Trained freshers in Android | Trained freshers in SQL | Trained freshers in PLSQL | Trained freshers in Java </title>
+    <link rel="shortcut icon" href="mainpagefiles/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="mainpagefiles/images/favicon.ico" type="image/x-icon">
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mainpagefiles/css/suvenmain.css">
+     <link rel="stylesheet" href="feedbacks/feeds.css">
+  	<style>
+  		.month
+  		{	
+  			cursor:pointer;
+  		}
+ .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(1,1,1);
+    background-color: lightblack;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 18%;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    color:  #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    font-size: 35px;
+}
+.overlay .btn-close {
+    position: absolute;
+    bottom: 80px;
+    right: 45px;
+    font-size: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 12px}
+  .overlay-content {
+    position: relative;
+    top: 25%;}
+  .overlay .closebtn {
+    font-size: 30px;
+    top: 80px;
+    right: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	#hiringModal p{
+		font-size: 9px;
+		text-align: justify;
+	}
+}
+@media only screen and (min-width: 768px) {
+	#hiringModal p{
+		font-size: 12px;
+		text-align: justify;
+	}
+}
+
+.training{
+    background-color:#fff;
+    border: 1px solid silver;
+    box-shadow: 0px 0px 10px silver;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:-10px;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    z-index: 999;
+    line-height:10px;
+}
+.freshers{
+    background-color:#fff;
+    border: 1px solid silver;
+    box-shadow: 0px 0px 10px silver;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:-10px;
+    position: fixed;
+    bottom: 50px;
+    left: 0px;
+    z-index: 999;
+    line-height:10px;
+}
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    .training {
+        font-size: 10px;
+        line-height:1px;
+        bottom: 90px;
+    }
+    .freshers{
+        font-size: 10px;
+        line-height:10px;
+        bottom: 30px;
+        padding-top:5px;
+        padding-left:5px;
+        padding-right:5px;
+        padding-bottom:-10px;
+    }    
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    .training {
+        font-size: 12px;
+    }
+    .freshers{
+        font-size: 10px;
+        line-height:10px;
+        bottom: 30px;
+        padding-top:5px;
+        padding-left:5px;
+        padding-right:5px;
+        padding-bottom:-10px;
+    }   
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    .training {
+        font-size: 14px;
+        line-height:10px;
+    }
+    .freshers{
+        font-size: 14px;
+        line-height:20px;
+        bottom: 40px;
+        padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:-10px;
+    }   
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    .training {
+        font-size: 14px;
+        line-height:10px;
+    }
+    .freshers{
+        font-size: 14px;
+        line-height:20px;
+        bottom: 40px;
+        padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:-10px;
+    } 
+}
+.address_modal{
+    height: 200px;
+}
+.address_modal p{
+    font-size: 13px;
+}
+
+  	</style>
+    </title>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100880133-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <body data-spy="scroll" data-offset="100" data-toggle="#main-navbar">
+      <div id="myNav" class="overlay">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  <a href="https://suvenconsultants.com/recruitment.php" target="_blank">Lateral Hiring</a>
+  <a href="https://suvenconsultants.com/">Technology Traning</a>
+    <a href="https://db.suvenconsultants.com/" target="_blank">Database SQL + PL/SQL</a>
+    <a href="https://android.suvenconsultants.com/" target="_blank">Android App development</a>
+    <a href="https://ocpjp.suvenconsultants.com/" target="_blank"> Java Certification</a>
+    <a href="https://monster.suvenconsultants.com/" target="_blank">Web Technologies</a>
+    <a href="https://db.suvenconsultants.com/#section-hadoops" target="_blank">Data Analytics using Hadoop & R</a>
+	<a href="https://monster.suvenconsultants.com/#section-python" target="_blank">Python with Django</a>
+	<a href="https://monster.suvenconsultants.com/" target="_blank">AngularJs & Bootstrap</a>
+	<a href="https://digitalmarketing.suvenconsultants.com/" target="_blank">Digital Marketing SEO + SEM</a>
+	<a href="https://digitalmarketing.suvenconsultants.com/#section-CW" target="_blank"> Content Writing</a>
+	<a href="https://suvenconsultants.com/feedback.php" >Students Feedback</a>
+	<a href="https://suvenconsultants.com/JobPosting.php" target="_blank" >Current Job Openings</a>
+	<a href="https://hacking.suvenconsultants.com/" target="_blank" > Hacking </a>
+	<a href="https://suventechnology.blogspot.in" target="_blank" > "suVen"-blogs </a>
+	<a href="https://suvenconsultants.com"  >Back to Home</a>
+
+	
+	 </div>
+</div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="https://suvenconsultants.com/"><img src="https://suvenconsultants.com/mainpagefiles/images/sctpl_logo.png" style="display:inline;">
+              <span>Suven Consultants & Technology Pvt. Ltd.</span></a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <!--<ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li> 
+                <li><a href="#">Page 3</a></li> 
+              </ul>-->
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="recruitment.php" target="_blank" style="cursor:pointer"><b>About us</b></a></li>
+                <li><a href="#" data-toggle="modal" data-target="#contactModal" style="cursor:pointer"><b>Get In Touch</b></a></li>
+                <li><a href="#" data-toggle="modal" data-target="#exploreModal" style="cursor:pointer"><b>Explore Us</b></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+<br><br>
+
+    
+    <div class="jumbotron" id="jumbotron">
+      <div class="text-center">
+        <h1> Training and Recruitment Company </h1>
+      </div>
+    </div>
+    <div class="container-fluid no-padding" style="margin-top:-3%;">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="mainpagefiles/images/trustedbyimg.jpg" alt="Suven Consultants" class="img-responsive"/>
+    </div>
+  </div>
+</div>
+	<!-- Slider section -->
+	<section>
+      <div class="container">
+	  <div class="row" style="height:30px">
+	  
+	  <!--/carousel-inner-->
+	  <!-- <div class='col-lg-1 col-lg-offset-10 col-xs-1 col-xs-offset-9 col-md-1 col-sm-offset-10 col-sm-1 text-center' style="height:30px">
+	  
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" >
+              <span  class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:#2ecc71;padding:0px;margin-top:1px"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:#2ecc71;padding:0px"></span>
+              <span class="sr-only">Next</span>
+              </a>
+		</div> -->
+	  </div>
+      <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+          <!-- <div class="well"> -->
+            <div id="myCarousel" class="carousel slide">
+              <!-- <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+				<li data-target="#myCarousel" data-slide-to="5"></li>
+				<li data-target="#myCarousel" data-slide-to="6"></li>
+				<li data-target="#myCarousel" data-slide-to="7"></li>
+				<li data-target="#myCarousel" data-slide-to="8"></li>
+				<li data-target="#myCarousel" data-slide-to="9"></li>
+				
+              </ol> -->
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="item active"><!-- slide 1 bnp-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5% ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/bnp.png" alt="Image" class="img-responsive" style="height: 50%; width:100%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>Sujata Argade<span id='coll'>&nbsp;&nbsp; (B.E - Computer Engineering, , Xavier Institute Of Engineering, Mahim)</span></h3> <span>Got to learn many things in level 2 for eg. Use of CMS like wordpress, OOPHP, MVC like COde Igniter. All this knowledge makes me feel I can be all rounder of PHP. Thanks to SCTPL for their extreme hardwork behind such a good syllabus.</span>
+                            <br/>
+                            <br/><span id='b'><b>Selected at : BNP Paribas India Solutions P.Ltd. - Jr. Software Engineer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> Package:  4.0 LPA</b></span>
+                            <br/>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+                <div class="item"><!--slide 2 mphasis-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5%  ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/mphasis.png" alt="Image" class="img-responsive" style="height: 50%; width:100%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>Akash Korde <span id='coll'>&nbsp;&nbsp; (B.E - Electronics and Telecommunication, Yadavrao Tasgaonkar College Of Engineering, Karjat)</span></h3> <span>At SCTPL along with huge knowledge, one gets the perfect experience of how corporate industries work.Thanks to rocky sir and SCTPL team for the entire training provided. Not only the technical training but also the HR session by Simran Madam was very helpful.</span>
+                            <br/>
+                            <br/><span id='b'><b>Placed at : Mphasis Ltd. - Software Engineer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> Package: 3.5 LPA</b></span>
+                            <br/>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+                <div class="item"><!-- slide 3  deleitte-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5%  ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/deloitte.png" alt="Image" class="img-responsive" style="width:100%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>Avinash Bhambhani<span id='coll'>&nbsp;&nbsp; (B.E in Information Technology,Thadomal Shahani Engineering College, Mumbai)</span></h3> <span>Hello everyone me Avinash Bhambhani from Thadomal Shahani Engineering College got placed in Deloitte with a packg of 5.2 lpa . I owe my this success to Focus Training at Venkatesh class. focus training proved very useful. It helped me clear basic concepts , help me in understanding tricks to solve problems quicker. The practice session helped me to manage time. Even the mock gd and hr interview  session helped in brushing up my soft skills.  In a nutshell focus is a comprehensive solution to prepare for aptitude. Thanks Rocky sir and Simran Maam. Feel free to contact me @ bhambhaniavinash@gmail.com
+			</span>
+                            <br/>
+                            <br/><span id='b'><b>Placed at: Deloitte  - Software Engineer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> Package: 5.2 Lakh  P.A.</b></span>
+                            <br/>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+				<div class="item"><!--slide 4 inscript-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5%  ">
+                    <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/inscripts.png" alt="Image" class="img-responsive" style="width: 70%;margin-left: 15%;">
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>Swapnil Kate&nbsp;&nbsp; <span id='coll'>(B.E. CS, Fr.Conceicao Rodrigues College of Engg)</span></h3> <span>I really thank and appreciate the 100 % practical project based training in Code Igniter ( MVC ) , word press and OO php - MySQL. All though I had certain long gaps in my engineering career , post which i worked in a Non It field for few months , still Simran madam at SCTPL could place me and many of my batch mates successfully. They ( people at Suven Con..)  are doing a great Job.<br>Feel free to contact me @ swapnil_0704@yahoo.com</span>
+                            <br/>
+                            <br/><span id='b'><b>Selected at: Inscripts India P.Ltd.  - PHP Developer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> Package: 2.71 LPA</b></span> 
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+				<div class="item"><!--slide 5 tmahindra-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5%  ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/techm.png" alt="Image" class="img-responsive" style="width:100%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>Saili Jadhav &nbsp;&nbsp; <span id='coll'>(B.E. IT, Atharva College Of Engineering, Malad)</span></h3> <span>Hello all "To be Engineers" , I must admit , that I learned true coding only after Web Technologist Level 1 and Level 2 Monster India Member certifications. Companies large and small are respecting this certification. I and all my friends started getting placement calls from SCTPL and from other companies immediately after we finished with Web tech or Android Certifications.</span>
+                            <br/>
+                            <br/><span id='b'><b>Working at: Tech Mahindra - Software Developer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> Package: 3 lacs p.a</b></span>
+                            <br/>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+				<div class="item"><!--slide 6 iksula-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5%  ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/Iksula.png" alt="Image" class="img-responsive" style="width:100%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>
+			Arjun Rajan  &nbsp;&nbsp; <span id='coll'>(B.E. - Information Technology, SIES Graduate School Of Technology, Nerul, Navi Mumbai.)</span></h3> <span>Level-1 training cleared my PHP Concepts and at Level-2 I was able to use those concepts to build industry level projects. <br>Feel free to contact me @ rajan.arjun@gmail.com</span>
+                            <br/>
+                            <br/><span id='b'><b>Placed at: Iksula Web Services  - PHP Programmer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> Package: 3 - 4.5 LPA</b></span>
+                            <br/>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+				<div class="item"><!--slide 7 neebal-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5%  ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/neebal.png" alt="Image" class="img-responsive" style="height:250px;width:70%;margin-left:15%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>Shravankumar Sauda<span id='coll'>&nbsp;&nbsp; (B.E in Information Technology,Watmull COE College, Mumbai)</span></h3> <span>Teaching Android by Rocky sir at both levels was outstanding, makes all concepts clear and a strong base, it helps me lot in my mini projects and also in my B.E. project.
+In CTB Batch not only android but also gave me a deep knowledge of jdbc-odbc concepts.
+ The practical session which was conducted made my practical concepts clear which helps a lot while developing any applications.
+			</span>
+                            <br/>
+                            <br/><span id='b'><b>Placed at: Neebal Technologies – Software Developer    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> Package: 3.25 LPA</b></span>
+                            <br/> 
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+				<div class="item"><!--slide 8 exl-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5%  ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/EXL.png" alt="Image" class="img-responsive" style="height:250px;width:100%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>Komal Yadav<span id='coll'>&nbsp;&nbsp; (BE - Information Techonology, Thakur College of Engineering)</span></h3> <span>Awesome base creation by Rocky sir in Level-1, Level-2 is very usefull experience of working on Live Projects and getting placed , Great Job doing by Suven Consultants.<br/>Feel free to get in touch @ 1101komal@gmail.com</span>
+                            <br/>
+                            <br/><span id='b'><b>Selected at: EXL Services P.Ltd. - Reporting Analyst &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> Package: 3 - 4.5 LPA </b></span>
+                            <br/> 
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+				<div class="item"><!--slide 9 bookmys-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5%  ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/Bookmyshow_Logo.png" alt="Image" class="img-responsive" style="height:250px;width:100%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>Suraj R Yadav <span id='coll'>&nbsp;&nbsp; (BE COMPUTER Vidyalankar Institute Of Technology)</span></h3> <span>Whole story in short...
+
+Did 4 years of engineering in computer science from one of the 'A' grade college but dint get placement.
+
+BUT completed web-technologist course from suven and got job in one of the top E-commerce company before completing engineering.
+
+Thanx to Rocky Sir, Barnita mam, Nishil and Trupti......!!!		</span>
+                            <br/>
+                            <br/><span id='b'><b>Placed at: BookMyShow.com -Web devloper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> Package:3.25-4.22LPA</b></span>
+                            <br/>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+				<div class="item"><!--slide 10 growwell-->
+                  <div class="row" style="margin-left: auto; margin-right: auto;margin-top:5%;margin-bottom:5%  ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <img src="https://suvenconsultants.com/logo/growthwell.png" alt="Image" class="img-responsive" style="width:100%">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                      <div >
+                        <h3>Moiz Attarwala <span id='coll'>(MBA IT, BES Institute of Mgmt Studies)</span></h3> <span>Great teaching at Level-1 by Rocky Sir and excellent practical knowledge was provided by trainers at Level-2.<br>Feel free to get in touch @ moiz_a52@yahoo.com</span>
+                            <br/>
+                            <br/><span id='b'><b>Selected at: Growth Well Consulting  - Wordpress Developer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>Package: 1.8 - 2.4 LPA</b></span>
+                            <br/>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/row-->                        
+                </div>
+                <!--/item-->
+              </div>
+              
+            </div>
+            <!--/myCarousel-->
+          <!-- </div> -->
+          <!--/well-->  
+        </div>
+ 
+	  
+	 
+		
+	</div>
+	
+	  </div>
+	  </section>
+	<!-- slider section end     -->
+	<hr style="margin:50px 0">
+	
+	<div class="container">
+	    <div class="row" >
+          
+            <div class=" col-sm-4" style="margin-bottom:50px">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/V5VSjaD04CE"></iframe> 
+              </div>
+            </div>
+            <div class="  col-sm-4" style="margin-bottom:50px">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/1S-OBtK5qvM"></iframe> 
+              </div>
+            </div>
+            <div class="col-sm-4" style="margin-bottom:50px">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/hqa2ssLwE4E"></iframe> 
+              </div>
+            </div>
+        </div>
+	</div>
+<!--feedback start -->	
+	 
+	<div class="container">
+ 	<div class="row">
+ 		<div class="col-xs-12  col-sm-offset-1 col-sm-10 col-md-2 col-md-offset-0 col-lg-2">
+				  <div class='panel-group text-center side_div' id='accordion' style='overflow-y:auto;max-height:400px;width:100%;float:left;'><div class='panel panel-default'>
+				                    <div class='panel-heading'>
+				                         <h4 class='panel-title'>
+				                              <a data-toggle='collapse' data-parent='#accordion' href='#collapse0' class='year'>2019</a>
+				                            </h4>
+				
+				                    </div>
+				                    <div id='collapse0' class='panel-collapse collapse'>
+									<div class='panel-body'><a class='month'>Jan-Apr</a></div> </div>
+				                </div><div class='panel panel-default'>
+				                    <div class='panel-heading'>
+				                         <h4 class='panel-title'>
+				                              <a data-toggle='collapse' data-parent='#accordion' href='#collapse1' class='year'>2018</a>
+				                            </h4>
+				
+				                    </div>
+				                    <div id='collapse1' class='panel-collapse collapse'>
+									<div class='panel-body'><a class='month'>Jan-Apr</a></div><div class='panel-body'><a class='month'>May-Aug</a></div><div class='panel-body'><a class='month'>Sep-Dec</a></div> </div>
+				                </div><div class='panel panel-default'>
+				                    <div class='panel-heading'>
+				                         <h4 class='panel-title'>
+				                              <a data-toggle='collapse' data-parent='#accordion' href='#collapse2' class='year'>2017</a>
+				                            </h4>
+				
+				                    </div>
+				                    <div id='collapse2' class='panel-collapse collapse'>
+									<div class='panel-body'><a class='month'>Jan-Apr</a></div><div class='panel-body'><a class='month'>May-Aug</a></div><div class='panel-body'><a class='month'>Sep-Dec</a></div> </div>
+				                </div><div class='panel panel-default'>
+				                    <div class='panel-heading'>
+				                         <h4 class='panel-title'>
+				                              <a data-toggle='collapse' data-parent='#accordion' href='#collapse3' class='year'>2016</a>
+				                            </h4>
+				
+				                    </div>
+				                    <div id='collapse3' class='panel-collapse collapse'>
+									<div class='panel-body'><a class='month'>Jan-Apr</a></div><div class='panel-body'><a class='month'>May-Aug</a></div><div class='panel-body'><a class='month'>Sep-Dec</a></div> </div>
+				                </div><div class='panel panel-default'>
+				                    <div class='panel-heading'>
+				                         <h4 class='panel-title'>
+				                              <a data-toggle='collapse' data-parent='#accordion' href='#collapse4' class='year'>2015</a>
+				                            </h4>
+				
+				                    </div>
+				                    <div id='collapse4' class='panel-collapse collapse'>
+									<div class='panel-body'><a class='month'>Jan-Apr</a></div><div class='panel-body'><a class='month'>May-Aug</a></div><div class='panel-body'><a class='month'>Sep-Dec</a></div> </div>
+				                </div><div class='panel panel-default'>
+				                    <div class='panel-heading'>
+				                         <h4 class='panel-title'>
+				                              <a data-toggle='collapse' data-parent='#accordion' href='#collapse5' class='year'>2014</a>
+				                            </h4>
+				
+				                    </div>
+				                    <div id='collapse5' class='panel-collapse collapse'>
+									<div class='panel-body'><a class='month'>Jan-Apr</a></div><div class='panel-body'><a class='month'>May-Aug</a></div><div class='panel-body'><a class='month'>Sep-Dec</a></div> </div>
+				                </div><div class='panel panel-default'>
+				                    <div class='panel-heading'>
+				                         <h4 class='panel-title'>
+				                              <a data-toggle='collapse' data-parent='#accordion' href='#collapse6' class='year'>2013</a>
+				                            </h4>
+				
+				                    </div>
+				                    <div id='collapse6' class='panel-collapse collapse'>
+									<div class='panel-body'><a class='month'>May-Aug</a></div><div class='panel-body'><a class='month'>Sep-Dec</a></div> </div>
+				                </div></div>		</div>
+		
+		<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10" style="border:1px solid #ddd;" >	
+           
+            <div style="height:469px;overflow-y:auto;width:100%" id='main_feed'>               
+            </div>
+            </div>
+  
+  
+  	</div>
+</div>
+
+    <div class="training hidden-xs hidden-sm">
+	    <p><Strong>See our <a href="https://training.suvenconsultants.com" target="_blank">Training Programmes</a></Strong></p>         
+        <p>Register for free : training - <a href="https://goo.gl/forms/D1MXNNbAnxdLers72" target="_blank"><b>here</b></a></p>
+        <p><a href="https://drive.google.com/file/d/0B4rCFkKCsCeKc0pDZDdQY3dmVG8/view" target="_blank"><b>Download Information Brochure</b></a></p>
+    </div>
+      
+<!-- feedback end -->
+<hr style="margin:50px 0">
+
+<!-- Google Review Section -->
+   
+   <script type="text/javascript"> 
+        var review_token = 'LmdMCWBBjek6aJ0uLp0Cy7S75iMoKYp5a1UEDdT2ELhbIzzHv4'; 
+        var review_target = 'review-container'; 
+    </script> 
+    <script src="https://reviewsonmywebsite.com/js/embed.js?v=5" type="text/javascript"></script> 
+    <div class="container" style="border:1px solid silver;">
+    <div class="upper" style="margin-bottom:5%;">    
+    <h3 class="col-lg-8 col-md-8 col-sm-12 col-xs-12">Suven Consultants & Technology Pvt. Ltd. - Google Reviews</h3>
+    <small class="col-lg-offset-1 col-md-offset-1 col-lg-3 col-md-3 col-xs-12 col-sm-12 text-center" style="font-size:15px;line-height:55px;"><a href="https://www.google.co.in/search?nfpr=1&q=suven+consultants&spell=1&sa=X&ved=0ahUKEwidoubh1dXdAhWFNY8KHfrxBZoQBQgpKAA&biw=1366&bih=657#lrd=0x3be7c8afbfffffff:0xcf0cd79d3c52220a,1,,," target="_blank">See 1000's of more reviews</a>
+    </small></div>
+    <div id="review-container" style="padding:20px;">
+    </div>
+    <p style="float:right;margin-top:-3%;font-size:15px;">
+        <a href="https://www.google.co.in/search?nfpr=1&q=suven+consultants&spell=1&sa=X&ved=0ahUKEwidoubh1dXdAhWFNY8KHfrxBZoQBQgpKAA&biw=1366&bih=657#lrd=0x3be7c8afbfffffff:0xcf0cd79d3c52220a,1,,," target="_blank">See 1000's of more reviews</a></p>
+    </div>
+<!-- Google Review Section Ended -->
+
+ <hr style="margin:50px 0">
+	<section class="testiomonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="center text-center">
+              <h2>What our clients say</h2>
+            </div>
+            <div class="gap"></div>
+            <div class="row">
+              <div class="col-md-6">
+                <blockquote>
+                  <p>Suven Consultants has a disciplined approach to recruitment. We have recruited and continue to recruit AM (Account Managers) and CRE (Customer Relationship Executives) for our Mumbai / Chennai and Baroda Operations. We look forward to increase our relationship with their team in the Near future. </p>
+                  <small>Ms.Nidhi Bhardwaj <cite title="Source Title"> HR - Cogencis</cite></small>
+                </blockquote>
+                <blockquote>
+                  <p>We have been hiring through Suven Consultants from a long time, in fact we have seen them growing over the years with us. Their recruitment team has closed critical time bound positions. Presently we are recruiting Branch managers ( National Level ), Branch Operations Manager and Gold Loan executives. </p>
+                  <small>Deepa Vishwanathan <cite title="Source Title">HR - Kotak Mahindra Bank , Mumbai</cite></small>
+                </blockquote>
+              </div>
+              <div class="col-md-6">
+                <blockquote>
+                  <p>We are happy with the services of Suven Consultants ; Simran and her team of recruiters are doing a nice job of completing difficult positions in stipulated time frame. We continue to recruit with them Architects, Estimation Engineers and Contracts Engineer. </p>
+                  <small>Shraddha Pal <cite title="Source Title">HR - Rustomjee Global City , Virar, Mumbai</cite></small>
+                </blockquote>
+                <blockquote>
+                  <p>We appreciate the project Based Training given by Rocky Jagtiani and his Technical team at Suven Consultants in Web Technologies like PHP - MySQL , HTML5 ,CSS3 and Joomla at a basic level was also covered very well. We look forward to recruit Web and Java Professionals from Suven Consultants. </p>
+                  <small>Ms. Jayshree Magdum <cite title="Source Title">HR - Iksula Web services</cite></small>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<!-- footer -->
+	 <hr style="margin:50px 0">
+
+    <section id="bottom" class="navclass">
+    <div class="container-fluid" id="footer">
+         <h3 class="text-center">THANKS FOR VISITING US</h3><br>
+            <div class="row" style="margin-left: auto; margin-right: auto;">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<ul>
+				<h4><strong>Training Programs</strong></h4>
+				<li><a href="https://db.suven.net" target="_blank">Database SQL+PL/SQL</a></li>
+				<li><a href="https://android.suven.net" target="_blank">Android App Development</a></li>
+				<li><a href="https://java.suven.net" target="_blank">Java Certification</a></li>
+				<li><a href="https://monster.suven.net" target="_blank">Web Technologies</a></li>
+				<li><a href="https://db.suvenconsultants.com/#section3-hadoops_a" target="_blank">Data Analytics using R</a></li>
+				<li><a href="https://monster.suvenconsultants.com/#section-python" target="_blank">Python with Django</a></li>
+				<li><a href="https://monster.suvenconsultants.com/#section-angular" target="_blank">Angular & Bootstrap</a></li>
+				<li><a href="https://digitalmarketing.suvenconsultants.com/" target="_blank">Digital Marketing SEO+SEM</a></li>
+				<li><a href="https://digitalmarketing.suvenconsultants.com/#mainWriting" target="_blank">Content Writing</a></li>
+				<li><a href="https://hacking.suvenconsultants.com/" target="_blank">Ethical Hacking</a></li>
+				<li><a href="https://statistics.suvenconsultants.com/" target="_blank">Statistics + Excel & Tableau</a></li>
+				<li><a href="https://training.suvenconsultants.com/" target="_blank">List of all Training Programs</a></li>
+				<li><a href="https://freshers.suvenconsultants.com/" target="_blank">Internship & Full Time Job Openings</a></li>
+				</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<ul>
+				<h4><strong>Recruitment Services</strong></h4>
+				<li><a href="https://freshers.suvenconsultants.com/" target="_blank">Fresher IT Jobs</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#hiringModal">IT Recruitment - Lateral</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#hiringModal">Non-IT and Support for Lateral upto VP/GM etc.</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#hiringModal">Employee Verification through Reference Checks</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#hiringModal">Interview and Rejection handling services</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#hiringModal">Salary Negotiations as per Industry norms</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#hiringModal">Profile Mapping as per Industry norms</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#hiringModal">Complete Hand-holding Support till Joining</a></li>
+				</ul>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+				<ul>
+				<h4><strong>Company</strong></h4>
+				<li><a href="https://suvenconsultants.com/recruitment.php" target="_blank">About us</a></li>
+				<li><a href="https://suvenconsultants.com/JobPosting.php" target="_blank">Current Job Openings</a></li>
+				<li><a href="https://suvenconsultants.com/feedback.php" target="_blank">Training Feedbacks</a></li>
+				<li><a href="https://mentor.suvenconsultants.com/" target="_blank">Our Mentors</a></li>
+				<li><a href="https://www.google.co.in/search?nfpr=1&q=suven+consultants&spell=1&sa=X&ved=0ahUKEwidoubh1dXdAhWFNY8KHfrxBZoQBQgpKAA&biw=1366&bih=657#lrd=0x3be7c8afbfffffff:0xcf0cd79d3c52220a,1,,," target="_blank">Google Reviews</a></li>
+				<li><a href="https://www.facebook.com/suvenconsultants/reviews/?ref=page_internal" target="_blank">Facebook Reviews</a></li>
+				<li><a href="https://suventechnology.blogspot.com" target="_blank">Technical Blog</a></li>
+				</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<ul>
+				<h4><strong>Get In Touch</strong></h4>
+				<li><a href="#" data-toggle="modal" data-target="#addressModal">SCTPL Branches</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#contactModal">Contact us</a><br>
+				<li><a href="https://www.facebook.com/suvenconsultants/" target="_blank">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/in/rocky-jagtiani-3b390649/" target="_blank">LinkedIn For Training</a></li>
+				<li><a href="https://in.linkedin.com/in/simran-jagtiani-752b0347" target="_blank">LinkedIn For Recruitment</a></li>
+				</ul>
+				</div>
+			</div>	
+                <div class="row">
+                <div class="social-links" >
+                  <h4>Connect with us</h4>
+                    <a class="facebook" href="https://www.facebook.com/suvenconsultants/" target="_blank"></a>
+                    <a class="linkedin" href="https://in.linkedin.com/in/simran-jagtiani-752b0347" target="_blank"></a>
+                    <a class="youtube" href="https://www.youtube.com/user/rockyjagtiani" target="_blank"></a>
+                    </div>
+              </div> <!-- end of row -->
+        </div><!-- end of container-->
+  </section>
+	
+	<!-- Popup Modal For Addresses -->
+		<div id="addressModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<div class="modal-content">
+			  <div class="modal-header text-center">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4><strong>SCTPL Training Room Addresses</strong></h4>
+				<h5 class="modal-title">Centralized Contact No.: <strong>+91 9870014450</strong></h5>
+			  </div>
+			<div class="modal-body">
+				<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<address class="chembur_address">
+                </address>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<address class="kandivali_address">
+                </address>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<address class="thane_address">
+                </address>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<address class="dadarnew_address">
+                </address>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+
+		<!-- Popup Modal For Contact US -->
+		<div id="contactModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<div class="modal-content">
+			  <div class="modal-header text-center">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Let us connect with you</h4>
+				</div>
+			<div class="modal-body">
+				<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<form name="contactForm" action="connectus.php" method="post" onsubmit="return validateContact()">
+				<div class="row">    
+				<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<input type="text" class="form-control" name="name" placeholder="Enter your name" required/>
+				</div>
+				<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<input type="tel" class="form-control" name="mobile" placeholder="Enter your mobile no." required/>
+				</div>
+				<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<input type="email" class="form-control" name="mail_id" placeholder="Enter Your Email ID - Only @gmail and @yahoo IDs allowed" required/>
+				</div>
+				<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<textarea  class="form-control" name="purpose" id="purpose" placeholder="how can we help ?" maxlength="100" required></textarea>
+				</div>
+				</div>
+				<div class="form-group">
+					<div class="col-lg-offset-1 col-lg-4 col-md-4 col-sm-4 col-xs-6" style="padding:0px;">	
+					<img src='https://suvenconsultants.com/captcha.php' class="img-reponsive img-rounded">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6" style="padding:0px;">
+  					<input type="text" class="form-control" name="code" id="code" placeholder="Enter Captcha" required>
+  					</div>
+  					<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 text-center">
+    				<button type="submit" class="btn btn-success" id="btn_submit">Submit</button>
+    				</div>
+  				</div>
+  				
+  				<div class="row"><br><hr>
+  				    <p class="text-center"><b>SCTPL Branches</b></p>
+  				    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 address_modal">
+  				            <p><b>Chembur</b></p>
+  				            <p >4/B wing,Trishul Apartments,
+                            Sindhi Society Rd Number 1,
+                            Chembur, Mumbai.</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 022-25277413</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9870014450</p>
+  				    </div>
+  				    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 address_modal">
+  				            <p><b>Kandivali</b></p>
+  				            <p>510, 5th Floor , Ghanshyam Enclave,
+                            Link Road, Lalji-pada Junction
+                            Kandivali West, Mumbai.</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 022-28674177</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9870014450</p>
+  				    </div>
+  				    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 address_modal">
+  				            <p><b>Thane</b></p>
+  				            <p>Kalpana Classes
+                            202, 2nd Floor, Crystal Court, B Cabin, Above Lagoo Bandhu Jwellers. Thane West.</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9967504602</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9870014450</p>
+  				    </div>
+  				    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 address_modal">
+  				            <p><b>Dadar</b></p>
+  				            <p>Kalpana Classes
+                            205, 2nd Floor, Pearl Centre,
+                            Senapati Bapat Road, Dadar West, 
+                            Mumbai.</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9867674602</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> 9870014450</p>
+  				    </div>
+  				</div>
+				
+				</form>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Popup Modal For Explore us -->
+	<div id="exploreModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header text-center">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4>Suven Consultants & Technology Pvt. Ltd.</h4>
+			   </div>
+			<div class="modal-body text-center">
+			   <h4>What would you like to know ?</h4>
+			   <br>
+			   <a href="#" type="button" class="btn" data-toggle="modal" data-target="#hiringModal" data-dismiss="modal" style="background-color:#34495e;color:white;">Lateral Hiring</a>
+			   <a href="https://training.suvenconsultants.com" target="_blank" type="button" class="btn" style="background-color:#2ecc71;color:white;">Training Programmes</a>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Popup Modal For Hiring Recruitment -->
+	<div id="hiringModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header text-center">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4><b>Suven Consultants & Technology Pvt. Ltd.</b></h4>
+			   </div>
+			<div class="modal-body">
+				<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<img src="https://suvenconsultants.com/mainpagefiles/images/sim1.jpg" class="img-circle img-responsive"/>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+				<p>
+				    Ms Simran (Head for Operations & Recruitment) is an thorough HR professional coming with an expertise in hiring people laterally across levels from Junior to Senior. With 15 years of experience hiring talent right from fresher to CEO level, has a flair for writing and nurturing talent from very basic.She along with her team strongly believes in fitting the right peg to the right hole. Her team likes working with level headed and out of the box thinkers. Do fill in the form below to enable us to connect.
+				</p>
+				</div>
+				</div>
+				<div class="row">
+				<h5 class="text-center"><b>Let us connect with you</b></h5>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<form name="hiringForm" action="https://suvenconsultants.com/hiring_connect.php" method="post" onsubmit="return validateHiring()">
+				<div class="form-group">
+				<input type="text" class="form-control" name="company_name" placeholder="Enter Your Company Name" required />
+				</div>
+				<div class="form-group">
+				<input type="text" class="form-control" name="hr_name" placeholder="Enter Your HR Name" required />
+				</div>
+				<div class="form-group">
+				<input type="tel" class="form-control" name="contact" placeholder="Enter Your Contact Number" required />
+				</div>
+				<div class="form-group">
+				<input type="email" class="form-control" name="mail_id" placeholder="Enter Your Email ID" required />
+				</div>
+				<div class="form-group">
+				<input type="text" class="form-control" name="requirement" placeholder="Your Job Requirement" maxlength="100" required />
+				</div>
+				<div class="form-group">
+					<div class="col-lg-offset-2 col-lg-4 col-md-offset-2 col-md-4 col-sm-6 col-xs-6" style="padding:0px;">	
+					<img src='https://suvenconsultants.com/captcha.php' class="img-rounded img-reponsive">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding:0px;">
+  					<input type="text" class="form-control" name="code" id="code" placeholder="Enter Captcha" required>
+  					</div>
+  				</div>
+				<div class="form-group text-center"><br><br>
+				<button type="submit" class="btn btn-success btn-block" id="btn_submit">Submit</button>
+				</div>
+				</form>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	
+<!-- script part  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="mainpagefiles/js/suvenmain.js"></script>
+
+<script src="feedbacks/js/feed.js"></script>
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+     
+}
+
+function validateContact(){
+    var name = document.forms["contactForm"]["name"].value;
+	var mobile = document.forms["contactForm"]["mobile"].value;
+	var email = document.forms["contactForm"]["mail_id"].value;
+	var purpose = document.forms["contactForm"]["purpose"].value;
+	var captcha = document.forms["contactForm"]["code"].value;
+	
+	var phoneno = /^\d{10}$/;
+	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+	
+    if (name == "" || name == null) {
+        alert("Please Enter Your Name");
+        return false;
+    }else if(mobile == "" || mobile == null){
+		alert("Please Enter Your Mobile Number");
+        return false;
+	}else if(phoneno.test(mobile) == false){
+		alert("Please Enter Valid Mobile Number");
+        return false;
+	}else if(email == "" || email == null){
+		alert("Please Enter Your Email ID");
+        return false;
+	}else if(reg.test(email) == false){
+		alert("Invalid Email Address");
+        return false;
+	}else if(purpose == "" || purpose == null){
+		alert("Please Enter Your Purpose");
+        return false;
+	}else if(purpose.length > 100){
+		alert("You can not enter more than 100 characters..");
+        return false;
+	}else if(captcha == "" || captcha == null){
+		alert("Please Enter Captcha Code");
+        return false;
+	}
+
+}
+
+function validateHiring(){
+    var companyname = document.forms["hiringForm"]["company_name"].value;
+	var hrname = document.forms["hiringForm"]["hr_name"].value;
+	var contact = document.forms["hiringForm"]["contact"].value;
+	var email = document.forms["hiringForm"]["mail_id"].value;
+	var requirement = document.forms["hiringForm"]["requirement"].value;
+	var captcha = document.forms["hiringForm"]["code"].value;
+	
+	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+	
+    if (companyname == "" || companyname == null) {
+        alert("Please Enter Your Company Name");
+        return false;
+    }else if(hrname == "" || hrname == null){
+		alert("Please Enter HR Name");
+        return false;
+	}else if(contact == "" || contact == null){
+		alert("Please Enter Contact Number");
+        return false;
+	}else if(email == "" || email == null){
+		alert("Please Enter Your Email ID");
+        return false;
+	}else if(reg.test(email) == false){
+		alert("Invalid Email Address");
+        return false;
+	}else if(requirement == "" || requirement == null){
+		alert("Please Enter Your Requirement");
+        return false;
+	}else if(requirement.length > 100){
+		alert("You can not more than 100 characters..");
+        return false;
+	}else if(captcha == "" || captcha == null){
+		alert("Please Enter Captcha Code");
+        return false;
+	}
+
+}
+
+
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 3000
+    })
+  });
+</script>        
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/592bce2e4374a471e7c503cd/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<div class="freshers">
+	<p><Strong>Freshers</strong></p>
+	<p><a href="https://freshers.suvenconsultants.com/" target="_blank"><b>Apply Here</b></a></p>
+</div>
+
+	</body>
+</html>

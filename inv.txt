@@ -1,0 +1,5 @@
+name,invoice,quantity,price
+abcd,111,2,1000
+name,invoice,quantity,price
+def,222,3,1500
+Name:zoya || invoice number:333 ||quant:5||. price:2500Name:batool || invoice number:444 ||quant:5||. price:2500Name:sana || invoice number:555 ||quant:6||. price:3000Name:nida || invoice number:666 ||quant:7||. price:3500
